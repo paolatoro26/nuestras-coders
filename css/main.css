@@ -1,1 +1,39 @@
-/* Inserta tu código aqui */
+div{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	position: relative;
+	margin: 20px
+	}
+
+img{position: absolute;
+	display: inline-block;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	}
+
+h3{display: block;
+margin: 30px}
+
+p{position: absolute;
+	z-index: 2;
+color:white;
+bottom: 0;
+right: 0;
+margin: 5px}
+
+.madre{width: 800px;
+	height: 500px;
+	background: yellow
+}
+.uno{position: absolute;	left: 20px}
+
+.dos{position: absolute;	left: 250px;}
+
+.tres{position: absolute;	left: 480px}
+
+.cuatro{position: absolute; left: 20px;top: 360px}
+.cinco{position: absolute;	left: 250px;top: 360px}
+.seis{position: absolute; left: 480px; top: 360px}
